@@ -1,0 +1,96 @@
+
+body{
+    font-family: "Rubik", sans-serif;
+    
+    background-color: #0000003f;
+    color: #000;
+    
+}
+.logo{
+    padding: 5px;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); /* Sombra del logo */
+
+    
+    
+}
+.bg-secondary:hover{
+    background-color: white !important;
+    color: #000!important;
+}
+.bg-dark:hover {
+    background-color: rgb(78, 76, 76) !important;
+    
+}
+.p-div{
+    font-size: 1.2rem;
+    
+    
+}
+
+.navbar {
+    opacity: 0; /* Inicia oculta */
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white; /* Cambia según el diseño */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    padding: 10px 20px;
+}
+.father-div{
+    position: absolute;
+    
+}
+.son-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 50px;
+}
+.logo-derecho{
+    width: 400px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    position: relative;
+    margin-left: 10px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); /* Sombra suave */
+}
+.carousel-item img {
+    transition: 1s ease;
+}
+img{
+    object-fit: cover;
+}
+.img-car{
+    height: 600px
+    
+}
+h5{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    font-size: 2rem;
+}
+h4{
+    color: white;
+}
+.garant{
+    font-size: 2rem;
+    color: rgb(119, 23, 23);
+
+}
+.logoFooter{
+    height: 30px;
+}
+.imagen-link {
+    transition: transform 0.3s ease, filter 0.3s ease; /* Para una transición suave */
+}
+.feature-icon{
+    border-radius: 5px;
+}
+.puntos{
+    margin: 6px;
+}
