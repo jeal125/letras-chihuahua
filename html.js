@@ -103,3 +103,13 @@ gsap.registerPlugin(ScrollTrigger);
       }
     });
   });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const track = document.getElementById('carouselTrack');
+    track.innerHTML += track.innerHTML; // duplicar logos para efecto infinito
+});
+
+
+

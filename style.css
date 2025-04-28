@@ -94,3 +94,66 @@ h4{
 .puntos{
     margin: 6px;
 }
+.expe{
+    color: aliceblue;
+}
+.clientes-titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clientes-titulo h4{
+    color: #000;
+}
+
+.clientes-titulo h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white; /* Puedes cambiar si quieres */
+    background-color: rgb(119, 23, 23);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor principal */
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 0;
+}
+
+/* Track donde están las imágenes */
+.carousel-track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+}
+
+/* Cada empresa */
+.empresa {
+    flex: 0 0 auto;
+    margin: 0 30px;
+}
+
+/* Imagenes */
+.empresa img {
+    height: 80px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.5));
+}
+
+/* Animación */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
