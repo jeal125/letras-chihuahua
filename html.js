@@ -29,18 +29,8 @@ gsap.fromTo(".nav-item",
     { y: -20, opacity: 0 }, 
     { y: 0, opacity: 1, duration: 1, stagger: 0.2, ease: "power3.out" }
 );
-gsap.from(".logo-nav", { 
-    x: -100, /* Se mueve desde la izquierda */
-    opacity: 0, /* Inicia invisible */
-    duration: 1.5, /* Tarda 1.5 segundos en aparecer */
-    ease: "power2.out"
-});
-gsap.from(".p-div", { 
-    x: -100, /* Se mueve desde la izquierda */
-    opacity: 0, /* Inicia invisible */
-    duration: 1.5, /* Tarda 1.5 segundos en aparecer */
-    ease: "power2.out"
-});
+
+
 const carousel = document.querySelector('#carouselExampleCaptions');
   
   const animateCarouselItem = () => {
