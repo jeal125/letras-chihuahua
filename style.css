@@ -47,6 +47,14 @@ header {
     justify-content: center;
     align-items: stretch;
   }
+.whatsappBottom{
+    background-color: #67B758;
+    text-decoration: none;
+    color: white;
+}
+.whatsappBottom:hover{
+    color: white;
+}
   
   /* Tarjeta Flip */
   .flip-card {
