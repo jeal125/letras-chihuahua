@@ -52,7 +52,7 @@ header {
     text-decoration: none;
     color: white;
 }
-.whatsappBottom:hover{
+.whatsappBottom:hover, .whatsappBottom:active, .whatsappBottom:link, .whatsappBottom:visited{
     color: white;
 }
   
